@@ -1,0 +1,11 @@
+LIBRARY hid.dll
+EXPORTS
+    HidD_SetFeature = HidD_SetFeature@12
+    HidD_GetFeature = HidD_GetFeature@12
+    HidD_GetAttributes = HidD_GetAttributes@8
+    HidD_GetHidGuid = HidD_GetHidGuid@4
+    HidD_GetPreparsedData = HidD_GetPreparsedData@8
+    HidD_FreePreparsedData = HidD_FreePreparsedData@4
+    HidP_GetCaps = HidP_GetCaps@8
+    HidP_GetSpecificButtonCaps = HidP_GetSpecificButtonCaps@28
+    HidP_GetSpecificValueCaps = HidP_GetSpecificValueCaps@28

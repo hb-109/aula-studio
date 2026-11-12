@@ -1,0 +1,9 @@
+.build/
+build/
+dist/
+.DS_Store
+# Compiled hid.dll logger; rebuild with the command in docs/F75-CAPTURE-GUIDE.md
+tools/hidlogger/out/
+# AULA's own config files, extracted from their Windows installers. Not
+# redistributed; only tools/gen_layout.py reads them (see README).
+reference/
